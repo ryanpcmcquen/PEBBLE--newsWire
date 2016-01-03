@@ -4,7 +4,7 @@
         ""
     ],
     "companyName": "ryan.q@linux.com",
-    "longName": "nytWire",
+    "longName": "newsWire",
     "projectType": "pebblejs",
     "resources": {
         "media": [
@@ -32,7 +32,7 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "nytWire",
+    "shortName": "newsWire",
     "targetPlatforms": [
         "aplite",
         "basalt"
