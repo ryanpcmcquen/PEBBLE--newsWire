@@ -30,13 +30,26 @@ var parser = function(data) {
 
 
 ajax({
-  url: 'http://api.nytimes.com/svc/news/v3/content/all.json?api-key=9b37b8880161ffb08f95df55513f0ce1:6:73910200',
+  url: 'http://api.nytimes.com/svc/topstories/v1/magazine.json?api-key=dc0d0ec09ff8aa4042db01d00bf6791a:3:73910200',
   type: 'json'
 }, parser);
 
 card.on('longClick', 'down', function() {
   ajax({
     url: 'http://api.nytimes.com/svc/news/v3/content/all.json?api-key=9b37b8880161ffb08f95df55513f0ce1:6:73910200',
+    type: 'json'
+  }, parser);
+  card.on('longClick', 'down', function() {
+    ajax({
+      url: 'http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/1.json?api-key=9d29f172255680eda7a73565c0d1e52f:18:73910200',
+      type: 'json'
+    }, parser);
+  });
+});
+
+card.on('longClick', 'up', function() {
+  ajax({
+    url: 'http://api.nytimes.com/svc/topstories/v1/magazine.json?api-key=dc0d0ec09ff8aa4042db01d00bf6791a:3:73910200',
     type: 'json'
   }, parser);
 });
