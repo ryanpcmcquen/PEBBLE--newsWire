@@ -1,4 +1,4 @@
-# PEBBLE--nytWire
+# PEBBLE--newsWire
 
 Read top stories via JSON and pebble.js.
 
