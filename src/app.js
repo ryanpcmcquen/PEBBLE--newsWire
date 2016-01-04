@@ -1,4 +1,4 @@
-/* newsWire by ryanpcmcquen v1.1 */
+/* newsWire by ryanpcmcquen v1.2 */
 
 /*global require*/
 /*jslint browser:true, white:true*/
