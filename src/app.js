@@ -1,4 +1,4 @@
-/* newsWire by ryanpcmcquen v1.3 */
+/*! newsWire by ryanpcmcquen v1.5 */
 /*global require*/
 /*jslint browser:true, white:true*/
 // declare all variables
@@ -10,7 +10,8 @@ var Accel = require('ui/accel');
 (function () {
   'use strict';
   var card = new UI.Card({
-    scrollable: true
+    scrollable: true,
+    style: 'small'
   });
   var parser = function (data) {
     var i = 0;
