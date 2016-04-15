@@ -1,4 +1,4 @@
-/*! newsWire by ryanpcmcquen v1.6 */
+/*! newsWire by ryanpcmcquen v1.7 */
 /*global require*/
 /*jslint browser:true, white:true*/
 // declare all variables
