@@ -1,4 +1,4 @@
-/*! newsWire by ryanpcmcquen v1.7 */
+/*! newsWire by ryanpcmcquen v1.8 */
 /*global require*/
 /*jslint browser:true, white:true*/
 // declare all variables
@@ -37,7 +37,6 @@ var Accel = require('ui/accel');
 
   var wires = {
     url: [
-      'https://api.nytimes.com/svc/topstories/v1/magazine.json?api-key=dc0d0ec09ff8aa4042db01d00bf6791a:3:73910200',
       'https://api.nytimes.com/svc/news/v3/content/all.json?api-key=9b37b8880161ffb08f95df55513f0ce1:6:73910200',
       'https://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/1.json?api-key=9d29f172255680eda7a73565c0d1e52f:18:73910200'
     ],
