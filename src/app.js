@@ -37,8 +37,8 @@ var Accel = require('ui/accel');
 
   var wires = {
     url: [
-      'https://api.nytimes.com/svc/news/v3/content/all.json?api-key=9b37b8880161ffb08f95df55513f0ce1:6:73910200',
-      'https://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/1.json?api-key=9d29f172255680eda7a73565c0d1e52f:18:73910200'
+      'https://api.nytimes.com/svc/topstories/v2/home.json?api-key=e01b603e40e14a5bb70f36d2a80e722e',
+      'https://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/7.json?api-key=e01b603e40e14a5bb70f36d2a80e722e'
     ],
     type: 'json'
   };
